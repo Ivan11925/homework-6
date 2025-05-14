@@ -5,7 +5,7 @@ while (i <= 10) {
 
 for (let num = 2; num <= 20; num++) {
   if (num % 2 !== 0) {
-    continue; // skip odd numbers
+    continue;
   }
   console.log(num);
 }
